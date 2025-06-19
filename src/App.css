@@ -1,0 +1,63 @@
+.App {
+  min-height: 100vh;
+  background-color: #f3f2f2;
+}
+
+/* Custom card styling */
+.card-body {
+  padding: 0;
+}
+
+/* Ensure proper spacing for form elements */
+.slds-form-element {
+  margin-bottom: 1rem;
+}
+
+/* Custom responsive grid adjustments */
+@media (max-width: 768px) {
+  .slds-container_large {
+    padding: 1rem;
+  }
+  
+  .slds-page-header__row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .slds-page-header__col-actions {
+    margin-top: 1rem;
+  }
+}
+
+/* Enhanced button group styling */
+.slds-button-group .slds-button:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+/* Improved toast positioning */
+.slds-notify-container {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 9999;
+}
+
+/* Ensure icons have proper spacing */
+.slds-media__figure {
+  margin-right: 1rem;
+}
+
+/* Custom page header enhancements */
+.slds-page-header {
+  background: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+
+/* Data table container styling */
+.slds-table_bordered {
+  border-radius: 0.25rem;
+  overflow: hidden;
+} 

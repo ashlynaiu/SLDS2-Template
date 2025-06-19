@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Salesforce Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f2f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* SLDS container styles */
+.slds-scope {
+  font-family: 'Salesforce Sans', Arial, sans-serif;
+} 
